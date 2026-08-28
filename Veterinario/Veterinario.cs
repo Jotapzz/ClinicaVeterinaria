@@ -16,7 +16,7 @@ namespace Veterinario
              especialidade = ctEspecialidade;
              nomePessoa = ctNomeVeterinario;
              telefonePessoa = ctTelefone;
-             email = ctEmail;
+             email = ctEmail; a
          }
         */
 
