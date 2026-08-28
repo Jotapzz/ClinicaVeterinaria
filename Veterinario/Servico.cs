@@ -6,8 +6,8 @@ namespace Veterinario
 {
     public class Servico
     {
-        private float _valor;
-        public string? nome;
+        private float _valor { get; set; }
+        public string? nome { get; set; }
 
         public Servico(float ctValor, string nome)
         {

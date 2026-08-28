@@ -7,14 +7,16 @@ namespace Veterinario
     public class Consulta
     {
         private int _idConsulta;
+
         private int _idAnimal;
-        public string? dataConsulta;
 
-        public string? horaConsulta;
+        public string? dataConsulta { get; set; }
 
-        public string? triagem;
+        public string? horaConsulta { get; set; }
 
-        private string? _crvm;
+        public string? triagem { get; set; }
+
+        private string? _crvm { get; set; }
 
         private string situacao = "Agendada";
 

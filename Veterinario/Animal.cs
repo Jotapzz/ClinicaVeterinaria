@@ -8,13 +8,13 @@ namespace Veterinario
     {
         //Atributos
         private int _idAnimal { get; }
-        public string? nomeAnimal;
-        public string? tipoAnimal;
-        public string? racaAnimal;
-        private string? _dataNascimentoAnimal;
-        private string? _cpfTutor;
+        public string? nomeAnimal { get; set;  }
+        public string? tipoAnimal { get; set; }
+        public string? racaAnimal { get; set; }
+        private string? _dataNascimentoAnimal { get; set; }
+        private string? _cpfTutor { get; set; }
 
-        
+
 
         //Funções
         public void CadastrarAnimal()
